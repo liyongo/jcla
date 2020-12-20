@@ -49,7 +49,7 @@ https://flickity.metafizzy.co
   position: absolute;
   background: transparent;
   border: none;
-  color: #333;
+  color: #333333;
 }
 
 .flickity-button:hover {
@@ -110,9 +110,9 @@ https://flickity.metafizzy.co
 /* ---- page dots ---- */
 
 .flickity-page-dots {
-  position: absolute;
+  position: relative;
   width: 100%;
-  bottom: -50px;
+  bottom: -25px;
   padding: 0;
   margin: 0;
   list-style: none;
@@ -135,4 +135,15 @@ https://flickity.metafizzy.co
 .flickity-page-dots .dot.is-selected {
   background: #18468A;
 
+}
+
+/* Media Queries */
+/* Mobile */
+@media (max-width: 812px){
+.flickity-enabled {
+  top: -1.5em;
+}
+.flickity-page-dots, .flickity-button {
+  display: none;
+}
 }

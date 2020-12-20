@@ -16,47 +16,57 @@
 <body>
     <!-- Enter Header -->
     <header>
-        <nav id="header" aria-label="nav-bar">
-            <a href="/index.html" alt="Go to Homepage"><div id="home-button">
-                <div id="home-logo">
-                    <div id="jcla-shape"></div>
-                </div>
-                <div id="home-name">
-                    <div id="home-first">John Cowen</div><div id="home-last">Landscape Associates</div>
-                </div>
-            </div></a>
-            <div id="acw-links">
-                <div id="nav-spacer"></div>
-                <div class="nav-link" id="a-link"><a href="/pages/about.html" alt="Go to About Page">About</a></div>
-                <div class="nav-link" id="c-link"><a href="/pages/contact.html" alt="Go to Contact Page">Contact</a></div>
-                <div class="nav-link" id="w-all">
-                    <input type="checkbox" id="genres">
-                    <label for="genres" id="w-link">
-                        <div>Work</div>
-                    </label>
-                    <div id="categories">
-                        <ul>
-                            <li><a href="/pages/categories/estates.html" alt="Go to Estates">Estates</a></li>
-                            <li><a href="/pages/categories/singlefamily.html" alt="Go to Single Family">Single Family</a></li>
-                            <li><a href="/pages/categories/cottages.html" alt="Go to Cottages">Cottages</a></li>
-                            <li><a href="/pages/categories/waterfront.html" aria-multiline="Go to Waterfront">Waterfront</a></li>
-                            <li><a href="/pages/categories/shady.html" alt="Go to Shady">Shady</a></li>
-                            <li><a href="/pages/categories/deerresist.html" alt="Go to Deer Resistant">Deer Resistant</a></li>
-                            <li><a href="/pages/categories/specialty.html" alt="Go to Specialty">Specialty</a></li>
-                            <li><a href="/pages/categories/pools.html" alt="Go to Pool Gardens">Pool Gardens</a></li>
-                            <li><a href="/pages/categories/hardscapes.html" alt="Go to Hardscapes">Hardscapes</a></li>
-                            <li><a href="/pages/categories/reveg.html" alt="Go to Revegetation">Revegetation</a></li>
-                            <li><a href="/pages/categories/plantings.html" alt="Go to Plantings" id="true-link">Plantings</a></li>
-                            <li><a href="/pages/categories/maintain.html" alt="Go to Maintenance">Maintenance</a></li>
-                            <li><a href="/pages/categories/fencing.html" alt="Go to Fencing">Fencing</a></li>
-                            <li><a href="/pages/categories/transplants.html" alt="Go to Transplants">Transplants</a></li>
-                        </ul>
+        <div id="head-box">
+            <a href="/index.html" alt="Go to Homepage">
+                <div id="home-button">
+                    <div id="home-logo">
+                        <div id="jcla-shape"></div>
+                    </div>
+                    <div id="home-name">
+                        <div id="home-first">John Cowen</div>
+                        <div id="home-last">Landscape Associates</div>
                     </div>
                 </div>
-            </div>
-        </nav>
+            </a>
+        </div>
     </header>
     <!-- Exit Header -->
+    <!-- Enter Nav -->
+    <nav id="menu-buttons" aria-label="nav-bar">
+        <div id="acw-links">
+            <div class="nav-link" id="a-link">
+                <a href="/pages/about.html" alt="Go to About Page">About</a>
+            </div>
+            <div class="nav-link" id="c-link">
+                <a href="/pages/contact.html" alt="Go to Contact Page">Contact</a>
+            </div>
+            <div class="nav-link" id="w-all">
+                <input type="checkbox" id="genres">
+                <label for="genres" id="w-link">
+                    <div>Work</div>
+                </label>
+                <div id="categories">
+                    <ul>
+                        <li><a href="/pages/categories/estates.html" alt="Go to Estates">Estates</a></li>
+                        <li><a href="/pages/categories/singlefamily.html" alt="Go to Single Family">Single Family</a></li>
+                        <li><a href="/pages/categories/cottages.html" alt="Go to Cottages">Cottages</a></li>
+                        <li><a href="/pages/categories/waterfront.html" aria-multiline="Go to Waterfront">Waterfront</a></li>
+                        <li><a href="/pages/categories/shady.html" alt="Go to Shady">Shady</a></li>
+                        <li><a href="/pages/categories/deerresist.html" alt="Go to Deer Resistant">Deer Resistant</a></li>
+                        <li><a href="/pages/categories/specialty.html" alt="Go to Specialty">Specialty</a></li>
+                        <li><a href="/pages/categories/pools.html" alt="Go to Pool Gardens">Pool Gardens</a></li>
+                        <li><a href="/pages/categories/hardscapes.html" alt="Go to Hardscapes">Hardscapes</a></li>
+                        <li><a href="/pages/categories/reveg.html" alt="Go to Revegetation">Revegetation</a></li>
+                        <li><a href="/pages/categories/plantings.html" alt="Go to Plantings">Plantings</a></li>
+                        <li><a href="/pages/categories/maintain.html" alt="Go to Maintenance">Maintenance</a></li>
+                        <li><a href="/pages/categories/fencing.html" alt="Go to Fencing">Fencing</a></li>
+                        <li><a href="/pages/categories/transplants.html" alt="Go to Transplants">Transplants</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Exit Nav -->
     <main>
         <div class="content-box">
             <script src="/flickity.pkgd.min.js"></script>
@@ -80,7 +90,7 @@
                 <div class="carousel-cell"><img src="/Images/PrevPhotos/Plantings/Plants13.jpg" alt=""></div>
                 <div class="carousel-cell"><img src="/Images/PrevPhotos/Plantings/Plants14.jpg" alt=""></div>
             </div>
-            <div class="caption-box">
+            <div class="caption-box" id="gal-cap">
                 <div class="cap-head"><h1>Perennial Gardens</h1></div>
                 <div class="cap-body"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
             </div>
