@@ -16,24 +16,30 @@
 <body>
     <!-- Enter Header -->
     <header>
-        <div id="head-box">
-            <a href="/index.html" alt="Go to Homepage">
-                <div id="home-button">
-                    <div id="home-logo">
-                        <div id="jcla-shape"></div>
+            <div id="head-box">
+                <a href="/index.html" alt="Go to Homepage">
+                    <div id="home-button" aria-label="home button">
+                        <div id="home-logo">
+                            <div id="jcla-shape"></div>
+                        </div>
+                        <div id="home-name">
+                            <div id="home-first">John Cowen</div>
+                            <div id="home-last">Landscape Associates</div>
+                        </div>
                     </div>
-                    <div id="home-name">
-                        <div id="home-first">John Cowen</div>
-                        <div id="home-last">Landscape Associates</div>
-                    </div>
-                </div>
-            </a>
-        </div>
+                </a>
+            </div>
     </header>
     <!-- Exit Header -->
     <!-- Enter Nav -->
-    <nav id="menu-buttons" aria-label="nav-bar">
+    <nav id="menu-buttons" aria-label="nav bar">
         <div id="acw-links">
+            <input type="checkbox" id="mobile-menu">
+            <label for="mobile-menu" id="menu-open">
+                <div id="hamburger"></div>
+                <div id="cross"></div>
+            </label>
+            <div id="menu-links">
             <div class="nav-link" id="a-link">
                 <a href="/pages/about.html" alt="Go to About Page">About</a>
             </div>
@@ -43,13 +49,13 @@
             <div class="nav-link" id="w-all">
                 <input type="checkbox" id="genres">
                 <label for="genres" id="w-link">
-                    <div>Work</div>
+                    <div id="true-link">Work</div>
                 </label>
                 <div id="categories">
                     <ul>
                         <li><a href="/pages/categories/estates.html" alt="Go to Estates">Estates</a></li>
                         <li><a href="/pages/categories/singlefamily.html" alt="Go to Single Family">Single Family</a></li>
-                        <li><a href="/pages/categories/cottages.html" alt="Go to Cottages">Cottages</a></li>
+                        <li><a id="true-link" href="/pages/categories/cottages.html" alt="Go to Cottages">Cottages</a></li>
                         <li><a href="/pages/categories/waterfront.html" aria-multiline="Go to Waterfront">Waterfront</a></li>
                         <li><a href="/pages/categories/shady.html" alt="Go to Shady">Shady</a></li>
                         <li><a href="/pages/categories/deerresist.html" alt="Go to Deer Resistant">Deer Resistant</a></li>
@@ -64,13 +70,14 @@
                     </ul>
                 </div>
             </div>
+            </div>
         </div>
     </nav>
     <!-- Exit Nav -->
     <main>
         <div class="content-box">
             <script src="/flickity.pkgd.min.js"></script>
-            <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true, "wrapAround": true }'>
+            <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true, "wrapAround": true }' aria-label="gallery">
                 <div class="carousel-cell"><img src="/Images/PrevPhotos/Cottages/Cottages5.jpg" alt=""></div>
                 <div class="carousel-cell"><img src="/Images/NewPhotos/COTTAGE/Cottages0.jpeg" alt=""></div>
                 <div class="carousel-cell"><img src="/Images/PrevPhotos/Cottages/Cottages1.jpg" alt=""></div>
