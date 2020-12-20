@@ -374,6 +374,7 @@ input#genres, input#mobile-menu {
 
 	grid-template-columns: 1fr 1fr;
 	
+	column-gap: 30px;
 	grid-column-gap: 30px;
 	-moz-column-gap: 30px;
 	-webkit-column-gap: 30px;
