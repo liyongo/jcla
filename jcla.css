@@ -86,9 +86,16 @@ header {
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex;
-    flex-direction: row;
+
+	flex-direction: row;
+	
+	-webkit-align-items: center;
+	-moz-align-items: center;
+	-ms-align-items: center;
 	align-items: center;
+
 	justify-content: center;
+
 	position: relative;
 	left: 1.75em;
     background-color: #9E9E72;
@@ -337,6 +344,8 @@ footer {
 	height: auto; /* height of carousel */
 	margin-right: 10px;
 	margin-top: 7em;
+	display: -ms-flexbox;
+	display: -webkit-flex;
 	display: flex;
 	
 	-webkit-align-items: center;
@@ -406,9 +415,17 @@ footer {
 }
 /* About */
 .awards {
+	display: -ms-flexbox;
+	display: -webkit-flex;
 	display: flex;
+
 	flex-wrap: wrap;
+
+	-webkit-align-items: center;
+	-moz-align-items: center;
+	-ms-align-items: center;
 	align-items: center;
+
 	justify-content: space-around;
 
 	width: 50vw;
