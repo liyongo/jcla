@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import url('https://use.typekit.net/eka1ain.css');
-@import url('https://use.typekit.net/pbo3wok.css');
-	 /* CSS Document */
+
+/* CSS Document */
 
 *{
 	margin: 0;
@@ -315,18 +315,7 @@ footer {
 	padding-bottom: 4em;
 }
 .ldb-part {
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-
-	-webkit-align-items: center;
-	-moz-align-items: center;
-	-ms-align-items: center;
-	align-items: center;
-
-	justify-content: space-around;
-
-	flex-direction: column;
+	display: grid;
 
 	text-align: center;
 
@@ -336,6 +325,7 @@ footer {
 	padding: .5em;
 	border: 1px solid #BDBDBD;
 	border-radius: 10px;
+	background: #FFFDF8;
 }
 
 /* Galleries */
