@@ -315,7 +315,15 @@ footer {
 	padding-bottom: 4em;
 }
 .ldb-part {
-	display: grid;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	align-items: center;
+
+	justify-content: space-around;
+
+	flex-direction: column;
 
 	text-align: center;
 
