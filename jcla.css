@@ -293,7 +293,7 @@ footer {
 	border-top: 1px solid #BDBDBD;
 	background: #FFFDF8;
 	padding: 5px 0;
-
+	z-index: 90;
 }
 /* Landscape Deign Build */
 .ldb {
@@ -315,13 +315,8 @@ footer {
 	padding-bottom: 4em;
 }
 .ldb-part {
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-
-	align-items: center;
-
-	flex-direction: column;
+	display: grid;
+	grid-template-rows: auto auto;
 
 	text-align: center;
 	width: 25%;
