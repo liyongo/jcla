@@ -322,7 +322,8 @@ footer {
 	padding: .5em;
 	border: 1px solid #BDBDBD;
 	border-radius: 10px;
-	z-index: 50;
+
+	transition: all .3s linear;
 }
 
 /* Galleries */
