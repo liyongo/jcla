@@ -323,7 +323,11 @@ footer {
 	border: 1px solid #BDBDBD;
 	border-radius: 10px;
 
-	transition: all .3s linear;
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
 }
 
 /* Galleries */
