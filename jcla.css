@@ -330,6 +330,8 @@ footer {
 	padding: .5em;
 	border: 1px solid #BDBDBD;
 	border-radius: 10px;
+	color: #333;
+	z-index: 10;
 }
 
 /* Galleries */
