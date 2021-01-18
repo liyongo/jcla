@@ -692,6 +692,9 @@ and (max-device-width: 812px) {
 		max-height: 25vh;
 		width: auto;
 	}
+	#be-af {
+		font-size: 2em;
+	}
 	/* Form */
 	.contact-grid {
 		display: -ms-flexbox;
@@ -844,6 +847,10 @@ and (max-device-width: 812px) {
 			display: -webkit-flex;
 			display: flex;
 			justify-content: center;
+		}
+		/* Galleries */
+		#be-af {
+			font-size: 2em;
 		}
 	}
 
