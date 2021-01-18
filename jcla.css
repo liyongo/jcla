@@ -376,6 +376,14 @@ footer {
 .caption-box h1 {
 	margin: .5em 0;
 }
+#be-af {
+	position: absolute;
+	bottom: 10%;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 5em;
+	color: #FFFDF8;
+}
 /* General Pages */
 /* 404 */
 #pnf-box{
