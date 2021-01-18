@@ -323,7 +323,6 @@ footer {
 	-webkit-transform: translateZ(0);
 	-moz-transform: translateZ(0);
 	-ms-transform: translateZ(0);
-	-o-transform: translateZ(0);
 	transform: translateZ(0);
 }
 
@@ -378,9 +377,9 @@ footer {
 }
 #be-af {
 	position: absolute;
-	bottom: 10%;
+	top: 70%;
 	left: 50%;
-	transform: translateX(-50%);
+	transform: translate3d(-50%, 0, 0);
 	font-size: 5em;
 	color: #FFFDF8;
 }
