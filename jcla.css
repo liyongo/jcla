@@ -668,6 +668,10 @@ and (max-device-width: 812px) {
 	#schematic {
 		max-width: 100vw;
 	}
+	/* About */
+	#ldb-head {
+		text-align: center;
+	}
 	/* Landscape Deign Build */
 	.ldb {
 		flex-direction: column;
