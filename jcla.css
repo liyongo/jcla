@@ -350,8 +350,9 @@ footer {
 	justify-content: center;
 }
 .carousel-cell img{
-	height: 65vh;
+	max-height: 65vh;
 	width: auto;
+	max-width: 80vw;
 }
 .carousel-cell a:hover {
 	box-shadow:  none;
